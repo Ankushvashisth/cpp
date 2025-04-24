@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-    int num, dgt = 0;
-    cout << "Enter num: " << endl;
-    cin >> num;
-    while (num != 0)
+    int x = 0;
+    int n = 3567;
+    while (n >0)
     {
-        num = num / 10;
-        dgt = dgt + 1;
+        x++;
+        n= n/10;
     }
-        cout << "Number of digit: " << dgt << endl;
+        cout << "Number of digit: " << x << endl;
+ 
 
 }

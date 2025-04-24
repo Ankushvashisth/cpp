@@ -23,7 +23,7 @@ int main()
 
             if (a == 0)
             {
-                cout << "n  is prime : " << n << endl;
+                cout <<"n  is prime : " << n << endl;
             }
         }
     }

@@ -12,6 +12,6 @@ int main(){
     // }
     for(; i>0; i = i/10)
     revs = revs*10 + i%10;
-    cout<<revs<<endl;
+      cout<<revs<<endl;
 
 }
