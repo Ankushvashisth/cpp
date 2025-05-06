@@ -14,7 +14,7 @@ int main()
             cout<<j<<" ";
             }
             else{ 
-                cout<<"  ";
+                cout<<" *";
             }
         }
         cout << endl;
